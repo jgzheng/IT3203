@@ -5,14 +5,21 @@ main
     max-width: 800px;
 }
 
+nav
+{
+    background-color: silver;
+    padding: 2px 0 1px 10px;
+}
+
 .nav, nav a
 {
     display: inline-block;
     padding: 5px 10px 5px 10px;
-    background-color: yellow;
-    border-left: 1px solid blue ;
-    border-right: 1px solid blue;
-    margin-right: 5px
+    background-color: lightyellow;
+    border-left: 2px solid darkgray ;
+    border-right: 2px solid darkgray;
+    margin-right: 5px;
+    font-size: 1.1em;
 }
 
 .nav:hover, nav a:hover
