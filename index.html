@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="style-a.css">
 </head>
 <style>
-    a:hover {
+    a:hover 
+    {
         color: green;
+    }
+    #tools
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        width: 360px;
+    }
+    #tools a
+    {
+        padding: 10px;
+        display: inline-block;
+        background-color: lightblue;
+        text-decoration: none;
+        background-image: url("https://code.visualstudio.com/assets/images/code-stable.png");
+    }
+    #tools a:nth-child(2)
+    {
+        background-image: url("https://pages.github.com/images/logo.svg");
     }
 </style>
 <body>
@@ -22,7 +42,7 @@
 <p>This course introduces the basics of web technologies and web development. 
    THe course focuses on frontend development using HTML, CSS, and JavaScript.</p>
 <h3>Tools used in this class</h3>
-<ul>
+<ul id="tools">
     <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
     <li><a href="https://pages.github.com" target="_blank">GitHub Pages</a></li>
     <li><a href="https://codepen.io/" target="_blank">Code Pen</a></li>
