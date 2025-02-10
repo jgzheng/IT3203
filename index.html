@@ -16,20 +16,15 @@
         list-style-type: none;
         display: flex;
         justify-content: space-around;
-        width: 360px;
+        width: 420px;    
     }
     #tools a
     {
-        padding: 10px;
+        padding: 5px 10px 5px 10px;
         display: inline-block;
-        background-color: lightblue;
         text-decoration: none;
-        background-image: url("https://code.visualstudio.com/assets/images/code-stable.png");
-    }
-    #tools a:nth-child(2)
-    {
-        background-image: url("https://pages.github.com/images/logo.svg");
-    }
+        background-color: lightblue;
+     }
 </style>
 <body>
 <h1>KSU IT 3203 Introduction to Web Development</h1>
@@ -42,11 +37,17 @@
 <p>This course introduces the basics of web technologies and web development. 
    THe course focuses on frontend development using HTML, CSS, and JavaScript.</p>
 <h3>Tools used in this class</h3>
-<ul id="tools">
-    <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
-    <li><a href="https://pages.github.com" target="_blank">GitHub Pages</a></li>
-    <li><a href="https://codepen.io/" target="_blank">Code Pen</a></li>
-</ul>
+<div id="tools">
+     <a href="https://code.visualstudio.com/" target="_blank">
+        <img width="13" src="https://code.visualstudio.com/assets/images/code-stable.png">
+   Visual Studio Code</a>
+    <a href="https://pages.github.com" target="_blank">
+        <img width="13" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png">
+        GitHub Pages</a>
+    <a href="https://codepen.io/" target="_blank">
+        <img width="13" src="https://blog.codepen.io/wp-content/uploads/2023/09/logo-black.png">
+        Code Pen</a>
+</div>
 <h2>Course Content and Materials</h2>
 <p>See <a href="content.html" style="display: inline-block; padding: 10px; background-color: yellow;">Content Page</a>
 </p>
