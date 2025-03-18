@@ -16,9 +16,12 @@
 </nav>
 <h2>Instructor's Code Examples</h2>
     <ul>
-        <li><a href="https://github.com/jgzheng/IT3203">GitHub Repository for this Website</a></li>
-        <li><a href="https://codepen.io/collection/BaajZk">CSS Layout Examples</a></li>
-        </ul>
+        <li><a href="https://github.com/jgzheng/IT3203"  target="_blank">GitHub Source Repository for this Website</a></li>
+        <li><a href="https://codepen.io/collection/BaajZk" target="_blank">CSS Layout Examples</a></li>
+        <li><a href="https://codepen.io/collection/jOOaYJ" target="_blank">JavaScritpt Starter Apps</a></li>
+        <li><a href="https://codepen.io/collection/jOZNaL" target="_blank">Dynamic HTML Examples</a></li>
+        <li><a href="https://codepen.io/collection/OykLQv" target="_blank">JavaScript Form</a></li>
+    </ul>
     <h2>Modules</h2>
         <input type="button" value="Expand All" onclick="expandAll()">
         <input type="button" value="Collapse All" onclick="collapseAll()">
@@ -86,7 +89,7 @@
     {
         const details = document.querySelectorAll("details");
         for (module of details)
-            detail.setAttribute("open", "");
+            module.setAttribute("open", "");
     }
     function collapseAll() 
     {
