@@ -10,6 +10,11 @@ main
     max-width: 800px;
 }
 
+a:hover
+{
+    color: rgb(255, 140, 0);
+}
+
 nav
 {
     background-color: var(--theme-background-color);
@@ -67,9 +72,4 @@ nav
     font-weight: bold;
     cursor: pointer;
     padding: 2px;
-}
-
-#modules a:hover
-{
-    color: rgb(255, 140, 0);
 }
