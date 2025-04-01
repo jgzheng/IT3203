@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT 3203 Content</title>
-    <link rel="stylesheet" href="style-a.css">
 </head>
 <body>
     <main>
@@ -21,10 +20,9 @@
         <li><a href="https://codepen.io/collection/jOOaYJ" target="_blank">JavaScritpt Starter Apps</a></li>
         <li><a href="https://codepen.io/collection/jOZNaL" target="_blank">Dynamic HTML Examples</a></li>
         <li><a href="https://codepen.io/collection/OykLQv" target="_blank">JavaScript Form</a></li>
+        <li><a href="http://it4213.azurewebsites.net/demo/" target="_blank">Responsive and Mobile Web Design Examples</a></li>
     </ul>
     <h2>Modules</h2>
-        <input type="button" value="Expand All" onclick="expandAll()">
-        <input type="button" value="Collapse All" onclick="collapseAll()">
     <ul id="modules">
         <details open>
             <summary>Module 1: Introduction to Web and Web Dev</summary>
@@ -80,16 +78,3 @@
     </ul>
 </main></body>
 </html>
-<script>
-    function expandAll() 
-    {
-        const details = document.querySelectorAll("details");
-        for (module of details)
-            module.setAttribute("open", "");
-    }
-    function collapseAll() 
-    {
-        const details = document.querySelectorAll("details");
-        details.forEach(detail => detail.removeAttribute("open"));
-    }
-</script>
